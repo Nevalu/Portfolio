@@ -1,26 +1,53 @@
+
+
 body {
-  background-color: indigo;
+  background-color: #e1c3c3;
+  max-width: 1750px
 }
 
-hr {
-  width: 1300px;
-  border-color: maroon;
-  border-style: inset;
-  border-width: 1px;
+.jumbotron {
+  background-color: silver;
+  background-size: 100% 75%;
 }
 
+.point {
+  color:   #391326;
+  font-style: italic;
+}
+h1 {
+  color: maroon;
+  font-style:oblique;
+  text-align: center;
+}
 
-
+body {
+    opacity: 0.4;
+}
+h2 {
+  color: purple;
+  text-align: center;
+  word-wrap: normal;
+}
+h4 {
+  color: purple;
+  text-align: center;
+  word-wrap: normal;
+}
 .intro {
-  max-width: 1200px;
+  border-radius:70%;
   height: 100px;
   margin-left: auto;
   margin-right: auto;
 }
+hr {
+  border-color: white;
+  border-style: inset;
+  border-width: 2px;
+}
 
-
-
-.intro h1 {
-  color: maroon;
-  text-decoration: none;
+.well {
+  border-radius: 20%;
+  word-wrap: normal;
+  margin-left: : auto;
+  margin-right: auto;
 }
